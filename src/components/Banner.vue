@@ -26,7 +26,11 @@
     </div>
 
     <!-- Mobile -->
+<<<<<<< HEAD
     <div class="row mt-4">
+=======
+    <div class="row mt-4 d-sm-block d-md-none">
+>>>>>>> development
       <div class="col-md-6">
         <img src="../assets/ilustrasi.png" width="100%" />
       </div>

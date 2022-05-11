@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <ProductList />
+    <Cart />
     <Footer />
   </div>
 </template>
@@ -9,14 +9,14 @@
 <script>
 // @ is an alias to /src
 import Navbar from "@/components/Navbar.vue";
-import ProductList from "@/components/ProductList.vue";
+import Cart from "@/components/Cart.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
   name: "Products",
   components: {
     Navbar,
-    ProductList,
+    Cart,
     Footer,
   },
 };

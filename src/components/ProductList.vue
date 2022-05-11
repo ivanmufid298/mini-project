@@ -1,26 +1,35 @@
 <template>
-  <div>
-    <b-card
-      title="Card Title"
-      img-src="https://picsum.photos/600/300/?image=25"
-      img-alt="Image"
-      img-top
-      tag="article"
-      style="max-width: 20rem"
-      class="mb-2"
-    >
-      <b-card-text>
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
-      </b-card-text>
+  <div class="container">
+    <div class="row">
+      <b-card
+        v-for="item in products"
+        :key="item.id"
+        :title="item.title"
+        :img-src="item.imgUrl"
+        :img-alt="item.title"
+        img-top
+        tag="article"
+        style="max-width: 18rem"
+        class="ml-1 mb-4"
+      >
+        <b-card-text> $ {{ item.price }} </b-card-text>
 
-      <b-button href="#" variant="primary">Go somewhere</b-button>
-    </b-card>
+        <b-button href="#" variant="primary">Add to Cart</b-button>
+      </b-card>
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+import products from "../assets/dummy/products.json";
+export default {
+  name: "ProductList",
+  data() {
+    return {
+      products,
+    };
+  },
+};
 </script>
 
 <style></style>

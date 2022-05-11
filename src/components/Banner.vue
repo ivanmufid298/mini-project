@@ -19,20 +19,18 @@
             </div>
           </div>
           <div class="col-md-6">
-            <img src="../assets/ilustrasi.png" width="100%" />
+            <img src="../assets/Banner.png" width="100%" />
           </div>
         </div>
       </div>
     </div>
 
     <!-- Mobile -->
-<<<<<<< HEAD
+
     <div class="row mt-4">
-=======
     <div class="row mt-4 d-sm-block d-md-none">
->>>>>>> development
       <div class="col-md-6">
-        <img src="../assets/ilustrasi.png" width="100%" />
+        <img src="../assets/Banner.png" width="100%" />
       </div>
       <div class="col-md-6">
         <div class="d-flex h-100">

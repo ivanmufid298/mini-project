@@ -27,8 +27,10 @@
           <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <router-link class="nav-link" to="/keranjang"
-                >Keranjang</router-link
-              >
+                >Keranjang
+                <b-icon-bag></b-icon-bag>
+                <span class="badge badge-success ml-2">0</span>
+              </router-link>
             </li>
           </ul>
         </div>

@@ -8,13 +8,13 @@
             <div class="d-flex h-100">
               <div class="justify-content-center align-self-center">
                 <h2>
-                  <strong>Delicious Food Menu, </strong><br />
-                  in Your Gadget
+                  <strong>Electro</strong><br />
+                  in Your Age
                 </h2>
-                <p>Segera pilih makanan kesukaan anda</p>
-                <button class="btn btn-lg btn-success">
-                  <b-icon-arrow-right></b-icon-arrow-right> Pesan
-                </button>
+                <p>Find Your Powerfull Device</p>
+                <router-link class="btn btn-lg btn-info" to="/products"
+                  >Shop Now</router-link
+                >
               </div>
             </div>
           </div>
@@ -28,21 +28,22 @@
     <!-- Mobile -->
 
     <div class="row mt-4">
-    <div class="row mt-4 d-sm-block d-md-none">
-      <div class="col-md-6">
-        <img src="../assets/Banner.png" width="100%" />
-      </div>
-      <div class="col-md-6">
-        <div class="d-flex h-100">
-          <div class="justify-content-center align-self-center">
-            <h2>
-              <strong>Delicious Food Menu, </strong><br />
-              in Your Gadget
-            </h2>
-            <p>Segera pilih makanan kesukaan anda</p>
-            <button class="btn btn-lg btn-success">
-              <b-icon-arrow-right></b-icon-arrow-right> Pesan
-            </button>
+      <div class="row mt-4 d-sm-block d-md-none">
+        <div class="col-md-6">
+          <img src="../assets/Banner.png" width="100%" />
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex h-100">
+            <div class="justify-content-center align-self-center">
+              <h2>
+                <strong> Electro</strong><br />
+                in Your Age
+              </h2>
+              <p>Find Your Powerfull Device</p>
+              <router-link class="btn btn-lg btn-info" to="/products"
+                >Shop Now</router-link
+              >
+            </div>
           </div>
         </div>
       </div>

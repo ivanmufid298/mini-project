@@ -22,12 +22,22 @@
 
 <script>
 import products from "../assets/dummy/products.json";
+import { mapGetters, mapActions } from "vuex";
 export default {
   name: "ProductList",
   data() {
     return {
       products,
     };
+  },
+  mounted() {
+    this.getProducts;
+  },
+  computed: {
+    ...mapGetters(["products"]),
+  },
+  methods: {
+    ...mapActions(["getProducts"]),
   },
 };
 </script>

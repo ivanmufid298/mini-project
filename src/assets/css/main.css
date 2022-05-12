@@ -30,7 +30,12 @@
 }
 .card{
     border: none;
+    padding: 20px;
 }
 .navbar{
     margin-bottom: 100px;
+}
+.btn-qty{
+    border-radius: 50%;
+    width: 40px;
 }

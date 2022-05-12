@@ -18,12 +18,15 @@ export default new Vuex.Store({
       commit("getProductData");
     },
     addToCart({ commit }, item) {
-      commit("addItemTocart")
-    }
+      commit("addItemTocart", item);
+    },
   },
   mutations: {
     getProductData(state) {
       state.products = products;
+    },
+    addItemToCart(state, item) {
+      state.cart.push({ ...item, qty: 1 });
     },
   },
   modules: {},

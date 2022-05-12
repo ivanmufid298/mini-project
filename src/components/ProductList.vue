@@ -14,7 +14,9 @@
       >
         <b-card-text> $ {{ item.price }} </b-card-text>
 
-        <b-button href="#" variant="primary">Add to Cart</b-button>
+        <b-button href="#" @click="addToCart(item)" variant="primary"
+          >Add to Cart</b-button
+        >
       </b-card>
     </div>
   </div>
@@ -23,6 +25,7 @@
 <script>
 import products from "../assets/dummy/products.json";
 import { mapGetters, mapActions } from "vuex";
+
 export default {
   name: "ProductList",
   data() {
@@ -37,7 +40,7 @@ export default {
     ...mapGetters(["products"]),
   },
   methods: {
-    ...mapActions(["getProducts"]),
+    ...mapActions(["getProducts", "addToCart"]),
   },
 };
 </script>

@@ -13,7 +13,7 @@ import Cart from "@/components/Cart.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
-  name: "Products",
+  name: "Home",
   components: {
     Navbar,
     Cart,

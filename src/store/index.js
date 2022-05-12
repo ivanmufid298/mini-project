@@ -17,6 +17,9 @@ export default new Vuex.Store({
     getProducts({ commit }) {
       commit("getProductData");
     },
+    addToCart({ commit }, item) {
+      commit("addItemTocart")
+    }
   },
   mutations: {
     getProductData(state) {
